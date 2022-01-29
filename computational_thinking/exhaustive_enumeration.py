@@ -29,8 +29,9 @@ def square_root(number):
         print(f"The square root of {number} is {root}.")
     else:
         print(f"{number} doesn't have an integer square root.")
-    
+
     print(f"{num_iterations} iterations were done in {final_time} seconds.")
 
-number = int(input("Enter a number: "))
-square_root(number)
+
+NUMBER = int(input("Enter a number: "))
+square_root(NUMBER)
