@@ -29,7 +29,7 @@ This is the introductory course to learn how to think like a software engineer a
 
 **Usage:** Install Python (version 3 or later). Run the scripts in the terminal with the instruction `python3 file_name.py`
 
-```sh
+```bash
 viajeradelaluz@platzi:~/computational_thinking$ python3 exhaustive_enumeration.py 
 Enter a number: 25
 0 1 2 3 4 
