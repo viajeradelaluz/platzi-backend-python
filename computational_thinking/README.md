@@ -42,6 +42,6 @@ viajeradelaluz@platzi:~/computational_thinking$
 
 - `exhaustive_enumeration.py` - Module to try all the numerical possibilities to find the square root of a number.
 - `approximation.py` - Try all the numerical possibilities, by aproximation (or epsilon) to find the square root of a number.
-- `binary_search_no_array`  - Finds the square root of a number by binary search. The search place is implemented through the algorithm.
-- `binary_search_array` - Finds the square root of a number by binary search. The search place is given by an array.
+- `square_root_binary_search.py` - Finds the square root of a number by binary search. The search place is implemented through the algorithm.
+- `binary_search_array` - Finds a number by binary search. The search place is given by an array.
 
