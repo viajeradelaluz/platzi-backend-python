@@ -27,21 +27,25 @@ This is the introductory course to learn how to think like a software engineer a
 
 ### Numerical programs 
 
-**Usage:** Install Python (version 3 or later). Run the scripts in the terminal with the instruction `python3 file_name.py`
-
-```bash
-viajeradelaluz@platzi:~/computational_thinking$ python3 exhaustive_enumeration.py 
-Enter a number: 25
-0 1 2 3 4 
-Numbers squared until find the answer.
-
-The square root of 25 is 5.
-5 iterations were done in 0.0 seconds.
-viajeradelaluz@platzi:~/computational_thinking$
-```
-
 - `exhaustive_enumeration.py` - Module to try all the numerical possibilities to find the square root of a number.
 - `approximation.py` - Try all the numerical possibilities, by aproximation (or epsilon) to find the square root of a number.
-- `square_root_binary_search.py` - Finds the square root of a number by binary search. The search place is implemented through the algorithm.
 - `binary_search_array` - Finds a number by binary search. The search place is given by an array.
+- `square_root_rocks.py`- Program that incorporates the three previous methods to get the square root of a number.
+- `square_root_binary_search.py` - Finds the square root of a number by binary search. The search place is implemented through the algorithm.
 
+**Usage:** Install Python (version 3 or later) and run the scripts with the instruction `python3 file_name.py`
+
+```sh
+viajeradelaluz@platzi:~/computational_thinking$ python3 square_root_rocks.py.py
+
+·······Welcome to Square Root Rocks!········
+
+Enter a number to get the square root: 16
+Select the method:
+    [1] - Exhaustive enumeration
+    [2] - Aproximation
+    [3] - Binary search
+>> 
+
+viajeradelaluz@platzi:~/computational_thinking$
+```
