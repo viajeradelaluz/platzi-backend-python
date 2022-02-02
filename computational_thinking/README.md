@@ -36,7 +36,7 @@ This is the introductory course to learn how to think like a software engineer a
 **Usage:** Install Python (version 3 or later) and run the scripts with the instruction `python3 file_name.py`
 
 ```sh
-viajeradelaluz@platzi:~/computational_thinking$ python3 square_root_rocks.py.py
+viajeradelaluz@platzi:~/computational_thinking$ python3 square_root_rocks.py
 
 ·······Welcome to Square Root Rocks!········
 
