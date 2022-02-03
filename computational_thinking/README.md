@@ -27,9 +27,11 @@ This is the introductory course to learn how to think like a software engineer a
 
 ### Numerical programs 
 
-- `exhaustive_enumeration.py` - Module to try all the numerical possibilities to find the square root of a number.
-- `approximation.py` - Try all the numerical possibilities, by aproximation (or epsilon) to find the square root of a number.
+- `approximation.py` - Try all the numerical possibilities, by approximation (or epsilon) to find the square root of a number.
 - `binary_search_array` - Finds a number by binary search. The search place is given by an array.
+- `exhaustive_enumeration.py` - Module to try all the numerical possibilities to find the square root of a number.
+- `factorial.py` - Module to get the factorial of a number setting a new standard recursion limit for Python.
+- `fibonacci.py` - Module to get the Fibonacci Sequence of a number handling the inefficiency of the algorithmic with the memoization technique.
 - `square_root_rocks.py`- Program that incorporates the three previous methods to get the square root of a number.
 - `square_root_binary_search.py` - Finds the square root of a number by binary search. The search place is implemented through the algorithm.
 

@@ -26,7 +26,7 @@ def recursion_limit(limit):
     """ Knowing the recursion limit on Python """
 
     std_limit = sys.getrecursionlimit()
-    print(f"---\nStandar recursion limit in Python: {std_limit}")
+    print(f"---\nStandard recursion limit in Python: {std_limit}")
 
     sys.setrecursionlimit(limit)
     new_limit = sys.getrecursionlimit()
