@@ -17,7 +17,9 @@ Stop versioning your projects using your own version control system. Better use 
 
 ### Basic commands in Git
 
-- Creating and working with repositories: `git init`, `git add`, `git push`
+- Creating and working with repositories: `git init`, `git add`, `git push`, `git status`
+- Set main configurations in Git: `git config`: `--global`, `--list`
+- Check history and file versions: `git log 'file'` or `git show 'file'`
 - Stage area: the basic work cycle in Git
 - Working with `branch`, `merge`, and `checkout`
 - `git reset` vs. `git rm`
