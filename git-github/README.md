@@ -20,7 +20,7 @@ Stop versioning your projects using your own version control system. Better use 
 - Creating and working with repositories: `git init`, `git add`, `git push`, `git status`
 - Set user and email in Git: `git config --global user [or email] 'username [or email]'`
 - Check main configurations in Git`git config --list` or `git config --list --show-origin` 
-- Check history and file versions: `git log 'file'` or `git show 'file'`
+- Check history and file versions: `git log 'file' --stat` or `git show 'file'`
 - Stage area: the basic work cycle in Git: `git resert [commit] --hard` and `git resert [commit] --soft`
 - Working with `branch`, `merge`, and `checkout`
 - `git reset` vs. `git rm`
