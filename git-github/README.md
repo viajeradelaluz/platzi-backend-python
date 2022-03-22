@@ -31,7 +31,8 @@ Stop versioning your projects using your own version control system. Better use 
 - Working with private and public keys:
   - Generating SSH keys: `ssh-keygen -t rsa -b 4096 -C "youremail@example.com"`
   - Turn on the SSH server: `eval $(ssh-agent - s)`
-  - Adding the SSH to the server: `ssh-add origin-path-private-key`
+  - Adding the SSH to the server: `ssh-add [origin-path-private-key]`
+  - Conect GitHub with SSH: `git remote set-url origin [ssh-url-repository]` 
 - Configure multiple collaborators in Git
 
 ### Professional Workflows
