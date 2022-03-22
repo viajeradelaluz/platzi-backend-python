@@ -4,7 +4,7 @@
 
 <br>
 
-This is a series of courses from the Backed Development with Python and Django Learning Path available on the online platform, Platzi. Django is a Python-based web development framework that provides essential tools for building secure and scalable applications. 
+This is a series of courses from the *Backed Development with Python and Django* learning path available on the online platform Platzi. Django is a Python-based web development framework that provides essential tools for building secure and scalable applications. 
 
 ## Basic Courses
 
@@ -24,12 +24,11 @@ This is a series of courses from the Backed Development with Python and Django L
 
 - Python Professional Course
 - Python Tutorial: Creating a CRUD
-- Curso de FastAPI: Fundamentos, Path Operations y Validaciones
-- Curso de FastAPI: Modularización, Datos Avanzados y Errores
+- FastAPI: Fundamentals, Path Operations y Validations
+- FastAPI: Modularización, Datos Avanzados y Errores
 - Flask Course
   
 ## Integrating Django 
 
 - Django Basics Course 
 - Intermediate Django Course: Testing, Static Files, Django Admin 
-
