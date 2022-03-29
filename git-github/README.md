@@ -54,9 +54,6 @@ Stop versioning your projects using your own version control system. Better use 
   - Push local branches: `git push origin [branch-name]`
   - See current branches and their history: `git show-branch [--all]` or `git branch`
 
-
-- Configure multiple collaborators in Git
-
 ### Professional Workflows
 
 - Pull requests
