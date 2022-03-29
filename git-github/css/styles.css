@@ -1,5 +1,6 @@
 body {
   color: deeppink;
+  background-color: rebeccapurple;
   font-family: "Courier New", Courier, monospace;
   font-size: 22px;
   text-align: left;
@@ -11,6 +12,12 @@ body {
   color: aliceblue;
   padding: 2%;
   font-weight: bold;
+}
+
+#cabecera #logo
+{
+  width: 50px;
+  vertical-align: middle;
 }
 
 #container {
