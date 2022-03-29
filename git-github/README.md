@@ -30,6 +30,7 @@ Stop versioning your projects using your own version control system. Better use 
 - Conflict resolution with `merge`, `git pull origin main --allow-unrelated-histories`
 
 - Commands to work with tags:
+  
   - Create a new tag and assign it to a commit: `git tag [tag-name] [commit-id]`
   - Delete a tag in the locally: `git tag -d [tag-name]`
   - List tags locally: `git tag` or `git show-ref --tags`
@@ -37,33 +38,68 @@ Stop versioning your projects using your own version control system. Better use 
   - Delete tags from remote repository: `git tag -d [tag-name]` && `git push origin :refs/tags/tag-name`
 
 - How to add a git-only alias:
+  
   - Single project: `git config alias.superlog "log --all --graph --decorate --oneline"`
   - Global: `git config --global alias.superlog "log --all --graph --decorate --oneline"` 
   - With format: `git config alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"`
   - To run: `git superlog`
 
 - Working with private and public keys:
+  
   - Generating SSH keys: `ssh-keygen -t rsa -b 4096 -C "youremail@example.com"`
   - Turn on the SSH server: `eval $(ssh-agent - s)`
   - Adding the SSH to the server: `ssh-add [origin-path-private-key]`
-  - Conect GitHub with SSH: `git remote set-url origin [ssh-url-repository]`
+  - connect GitHub with SSH: `git remote set-url origin [ssh-url-repository]`
 
 - Working wit branches:
+  
   - Create a branch locally: `git branch [branch-name]` or `gir checkout -b [branch-name`
   - Change branch: `git checkout [branch-name]`
   - Push local branches: `git push origin [branch-name]`
   - See current branches and their history: `git show-branch [--all]` or `git branch`
+  - See remote branches: `git branch -r` or `git branch -a`
 
 ### Professional Workflows
 
 - Pull requests
-- Fork: contribute to a project
+- Fork - Contributing to a project:
+  - Generate an additional remote: `git remote upstream [repo-url]`
+  - Get the changes: `git pull upstream [branch]`
+  - Add to our forked repository: `git push origin [branch]`
 - Deployment to a server
 
-## Multiples Worflows
+### Multiples Workflows
 
-- `git rebase`
-- `git stash`
+- Rewrite commits using `git rebase`
+- Create a stash with local modifications and revert back to the head commit: `git stash`
+- Display a list of all stashes in your repository: `git stash list`
+- Apply a commit’s changes onto a different branch with `git cherry-pick [id-commit]`
+- Edit a Git commit message by adding a message in quotation marks after the command: `git commit --amend`
 - `git clean`
-- `git cherry-pick`
 - `git reset` and `git reflog`
+
+### Searches
+
+- Search key-words in files with `git grep [color]`
+  
+  - Show number line: `git grep -n [color]`
+  - Count number of appearances: `git grep -c [color]`
+
+- Search key-words in commits with `git log -S [color]`
+
+- Show number of commits by member: `git shortlog -sn`
+  
+  - Include commits deleted: `git shortlog -sn --all`
+  - Show without `merge` commits: `git shortlog -sn --all --no-merge`
+
+- Show revisions and authors: `git blame [file]`
+  
+  - Show line by line: `git blame [file] -L[initial-line,final-line]`
+
+<br>
+
+## More resources
+
+- `git [command] --help`
+- [Git-scm](https://git-scm.com/)
+- [Git commands: A reference guide (by GitKraken)](https://www.gitkraken.com/learn/git/commands)
