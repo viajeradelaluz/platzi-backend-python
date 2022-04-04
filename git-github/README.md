@@ -22,6 +22,7 @@ Stop versioning your projects using your own version control system. Better use 
 - Check main configurations in Git`git config --list` or `git config --list --show-origin`
 - Check history and file versions: `git log 'file' --stat` or `git show 'file'`
 - Stage area: the basic work cycle in Git: `git resert [commit] --hard` and `git resert [commit] --soft`
+- - Removing from Stage area: `git rm --cached`
 - Working with `branch`, `merge`, and `checkout`
 - `git reset` vs. `git rm`
 
@@ -47,7 +48,7 @@ Stop versioning your projects using your own version control system. Better use 
 - Working with private and public keys:
   
   - Generating SSH keys: `ssh-keygen -t rsa -b 4096 -C "youremail@example.com"`
-  - Turn on the SSH server: `eval $(ssh-agent - s)`
+  - Turn on the SSH server: `eval $(ssh-agent -s)`
   - Adding the SSH to the server: `ssh-add [origin-path-private-key]`
   - connect GitHub with SSH: `git remote set-url origin [ssh-url-repository]`
 
