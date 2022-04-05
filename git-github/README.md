@@ -28,7 +28,9 @@ Stop versioning your projects using your own version control system. Better use 
 
 ### Basic workflow in GitHub
 
-- Conflict resolution with `merge`, `git pull origin main --allow-unrelated-histories`
+- Conflict resolution with `merge`, `git pull origin [branch] --allow-unrelated-histories`
+- Overwrite saving local changes on stash: `git stash --include-untracked` then `git pull origin [branch]`
+- Overwrite discarding local changes: `git clean -fd` then `git pull origin [branch]`
 
 - Commands to work with tags:
   
