@@ -59,7 +59,7 @@ Enter a word or sentence: Yo soy
 - Control structures: `for` loop
 - Traversing a strings
 - Interrupting cycles with `break` and `continue`
-- **Third program - Prime nummers:** Detects whether a number is prime or not and gets the list of the number dividers.
+- **Third program - Prime nummers:** `prime_number_test.py` Detects whether a number is prime or not and gets the list of the number dividers.
 
 ```bash
 viajeradelaluz@platzi:~/ basic_python$ ./prime_number_test.py
@@ -76,7 +76,7 @@ Enter a number: 123
 --> 123 is not a prime number.
 ```
 
-- **Project - Guess the number! [video game]:** The computer chooses a random number between 0 and 100 and you have to guess it by following the clues.
+- **Project - Guess the number! [video game]:** `guess_number.py` The computer chooses a random number between 0 and 100 and you have to guess it by following the clues.
 
 ```bash
 viajeradelaluz@platzi:~/ basic_python$ ./guess_number.py
@@ -102,7 +102,7 @@ Computer number: 8
 - Lists
 - Tuples
 - Dictionaries
-- **Project  - Password generator:** Generates passwords randomly and securely.
+- **Project  - Password generator:** `password_generator.py` Generates passwords randomly and securely.
 
 ```bash
 viajeradelaluz@platzi:~/ basic_python$ ./password_generator.py
