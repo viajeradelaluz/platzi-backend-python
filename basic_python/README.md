@@ -33,3 +33,83 @@ I want to convert from:
 Colombian Pesos Amount: 58000
 --> $14.6 USD
 ```
+
+## Programming tools
+
+- Modularize code with functions
+- Control structures: if/else
+- Working with text: character strings
+- Working with text: slices
+- **Second program - Palindrome:** `palidrome.py` Check if word or sentence is a palidrome.
+
+```bash
+viajeradelaluz@platzi:~/ basic_python$ ./palindrome.py
+        .      .
+._  _.|*._  _|._. _ ._ _  _
+[_)(_]||[ )(_][  (_)[ | )(/,
+|         . . .
+
+Enter a word or sentence: Yo soy
+--> Yo soy is palindrome!
+```
+
+## Loops
+
+- Control structures: `while` loop
+- Control structures: `for` loop
+- Traversing a strings
+- Interrupting cycles with `break` and `continue`
+- **Third program - Prime nummers:** Detects whether a number is prime or not and gets the list of the number dividers.
+
+```bash
+viajeradelaluz@platzi:~/ basic_python$ ./prime_number_test.py
+
+    +-+-+-+-+--+-+-+-+--+-+
+··· |P|R|I|M|  |N|U|M|  |R| (?) ···
+    +-+-+-+-+  +-+-+-+  +-+
+             x        xx
+             x        .x     
+             .        ..
+
+Enter a number: 123
+[1, 3, 41, 123]
+--> 123 is not a prime number.
+```
+
+- **Project - Guess the number! [video game]:** The computer chooses a random number between 0 and 100 and you have to guess it by following the clues.
+
+```bash
+viajeradelaluz@platzi:~/ basic_python$ ./guess_number.py
+
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+···|G|U|E|S|S| |T|H|E| |N|U|M|B|E|R|!|···
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+Choose a number between 0 and 100:
+> 40
+Try a smaller number: 20
+Try a smaller number: 10
+Try a smaller number: 5
+Try a larger number: 7
+Try a larger number: 8
+
+Computer number: 8
+--> You win!
+```
+
+## Data structures
+
+- Lists
+- Tuples
+- Dictionaries
+- **Project  - Password generator:** Generates passwords randomly and securely.
+
+```bash
+viajeradelaluz@platzi:~/ basic_python$ ./password_generator.py
+
+    +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+
+··· |P|A|S|S|W|O|R|D| |G|E|N|E|R|A|T|O|R| ···
+    +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+
+
+Password: PDj8V;m&(7qQ
+```
