@@ -13,9 +13,7 @@ Before using any database technology you must understand the design and modeling
 - Non-Relational Databases
 - Other types of Databases
 
-## Syllabus
-
-### Introduction to relational databases
+## Introduction to relational databases
 
 - History of Relationship Databases
 - Entities and attributes
@@ -28,14 +26,14 @@ Before using any database technology you must understand the design and modeling
 - Normal Forms in Relational Databases
 - Physical diagram: normalizing PlatziBlog
 
-### RDBMS (MySQL): How to do the above in a practical way!
+## RDBMS (MySQL): How to do the above in a practical way!
 
 - What is RDB and RDBMS?
 - Local installation of an RDBMS (Windows, Mac, Ubuntu)
 - Graphic clients
 - Managed services
 
-### SQL even in the soup
+## SQL even in the soup
 
 - History of SQL
 - DDL create
@@ -46,7 +44,7 @@ Before using any database technology you must understand the design and modeling
 - Creating PlatziBlog: independent tables
 - Creating PlatziBlog: transitive tables
 
-### Queries in a Database
+## Queries in a Database
 
 - Why are consultations so important?
 - Basic structure of a Query
@@ -62,12 +60,12 @@ Before using any database technology you must understand the design and modeling
 - Ask the database
 - Consulting PlatziBlog
 
-### Introduction to non-relational databases
+## Introduction to non-relational databases
 
 - What are the types of non-relational databases?
 - Managed services and data hierarchy
 
-### Handling data models in non-relational databases
+## Handling data models in non-relational databases
 
 - Top Level Collection with Firebase
 - Creating and deleting documents in Firestore
@@ -76,7 +74,7 @@ Before using any database technology you must understand the design and modeling
 - Building PlatziBlog on Firestore
 - Final project: transforming your project into a non-realtional database
 
-### Databases in real life
+## Databases in real life
 
 - Big Data
 - Data Warehouse
