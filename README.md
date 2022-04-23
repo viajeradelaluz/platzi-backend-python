@@ -1,3 +1,5 @@
+<br>
+
 # Backend Development with Python and Django
 
 [platzi](https://platzi.com/backend-python/) | Learning Path
@@ -9,12 +11,12 @@ This is a series of courses from the *Backed Development with Python and Django*
 ## Basic Courses
 
 - [Introduction to Terminal and Command Line](./command_line/)
-- Git and GitHub Professional Course
-- Basic Python Course 
-- Introduction to Computational Thinking with Python
-- Introduction to Backend Development
-- Intermediate Python Course: Comprehensions, Lambdas, and Error Handling
-- Object Oriented Programming Course: OOP
+- [Git and GitHub Professional Course](./git-github/)
+- [Basic Python Course](./basic_python/)
+- [Introduction to Computational Thinking with Python](./computational_thinking/)
+- [Introduction to Backend Development](./backend_introduction/)
+- [Intermediate Python Course: Comprehensions, Lambdas, and Error Handling](./intermediate_python/)
+- [Object Oriented Programming Course: OOP](./object_oriented_programming/)
 - OOP and Algorithms with Python
 - Database Fundamentals
 - Introduction to Selenium with Python
