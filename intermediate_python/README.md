@@ -1,4 +1,4 @@
-# Intermediate Python Course: Comprehensions, Lambdas and Error Handling
+# Intermediate Python Course: <br> Comprehensions, Lambdas and Error Handling
 
 [platzi](https://platzi.com/cursos/python-intermedio/) | Facundo García
 

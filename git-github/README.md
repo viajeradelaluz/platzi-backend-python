@@ -52,7 +52,7 @@ Stop versioning your projects using your own version control system. Better use 
   - Generating SSH keys: `ssh-keygen -t rsa -b 4096 -C "youremail@example.com"`
   - Turn on the SSH server: `eval $(ssh-agent -s)`
   - Adding the SSH to the server: `ssh-add [origin-path-private-key]`
-  - connect GitHub with SSH: `git remote set-url origin [ssh-url-repository]`
+  - Connect GitHub with SSH: `git remote set-url [origin] [ssh-url-repository]`
 
 - Working wit branches:
   
@@ -66,6 +66,8 @@ Stop versioning your projects using your own version control system. Better use 
 
 - Pull requests
 - Fork - Contributing to a project:
+  - Showing the current remotes: `git remote -v` or `git remote show [remote]`
+  - Adding remotes: `git remote add [name] [url]`
   - Generate an additional remote: `git remote upstream [repo-url]`
   - Get the changes: `git pull upstream [branch]`
   - Add to our forked repository: `git push origin [branch]`
