@@ -12,10 +12,10 @@ This is a series of courses from the *Backed Development with Python and Django*
 
 - [Introduction to Terminal and Command Line](./command_line/)
 - [Git and GitHub Professional Course](./git-github/)
-- [Basic Python Course](./basic_python/)
+- [Basic Python Course](./python_basic/)
 - [Introduction to Computational Thinking with Python](./computational_thinking/)
 - [Introduction to Backend Development](./backend_introduction/)
-- [Intermediate Python Course: Comprehensions, Lambdas, and Error Handling](./intermediate_python/)
+- [Intermediate Python Course: Comprehensions, Lambdas, and Error Handling](./python_intermediate/)
 - [Object Oriented Programming Course: OOP](./object_oriented_programming/)
 - OOP and Algorithms with Python
 - Database Fundamentals
