@@ -4,8 +4,6 @@
 
 **[platzi](https://platzi.com/cursos/estructuras-datos-python/) | Héctor Vega**
 
-![](data-structures.png)
-
 <br>
 
 Increase your technical skills by efficiently using data in your Python programs. Apply different data structures: arrays, linked lists, stacks and queues.
