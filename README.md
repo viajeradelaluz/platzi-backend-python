@@ -20,7 +20,7 @@ This is a series of courses from the *Backed Development with Python and Django*
 - OOP and Algorithms with Python
 - Database Fundamentals
 - Introduction to Selenium with Python
-- Linear Data Structures with Python
+- [Linear Data Structures with Python](./python_linear_data_structures/)
 
 ## Web Development - Intermediate Courses
 
