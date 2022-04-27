@@ -39,6 +39,12 @@ class Array:
         except TypeError:
             print('You can only sum arrays of the same type.')
 
-if __name__ == '__main__':
+
+def main():
     a = Array(2)
+    a.__iter__()
     print(a)
+
+
+if __name__ == '__main__':
+    main()

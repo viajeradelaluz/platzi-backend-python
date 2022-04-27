@@ -53,7 +53,11 @@ class Cube():
         return cube
 
 
-if __name__ == '__main__':
+def main():
     c = Cube(2, 3, 4)
     c.__iter__()
     print(c)
+
+
+if __name__ == '__main__':
+    main()

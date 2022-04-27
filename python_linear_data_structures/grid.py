@@ -44,7 +44,11 @@ class Grid():
         return grid
 
 
-if __name__ == '__main__':
+def main():
     g = Grid(3, 5)
     g.__iter__()
     print(g)
+
+
+if __name__ == '__main__':
+    main()
