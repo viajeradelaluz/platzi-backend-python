@@ -1,19 +1,10 @@
-# Git and GitHub Professional Course
+# Git and GitHub Practice
 
-**[platzi](https://platzi.com/cursos/git-github/) | Freddy Vega**
+![](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
 <br>
 
 Stop versioning your projects using your own version control system. Better use Git, the quintessential version control system used by the technology industry. Learn how to work with git, basic concepts, clone a repository, and manage your projects by hosting them in your local repository and on GitHub.
-
-## Learning Objectives
-
-- Take a Version Control in your Projects with Git
-- Work in Teams Collaboratively
-- Using Custom Domains with GitHub Pages
-- Install Git on your operating system
-
-## Syllabus
 
 ### Basic commands in Git
 
