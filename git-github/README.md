@@ -43,6 +43,7 @@ Stop versioning your projects using your own version control system. Better use 
   - Generating SSH keys: `ssh-keygen -t rsa -b 4096 -C "youremail@example.com"`
   - Turn on the SSH server: `eval $(ssh-agent -s)`
   - Adding the SSH to the server: `ssh-add [origin-path-private-key]`
+  - Test your connection: `ssh -T git@github.com`
   - Connect GitHub with SSH: `git remote set-url [origin] [ssh-url-repository]`
 
 - Working wit branches:
