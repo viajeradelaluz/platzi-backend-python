@@ -1,0 +1,8 @@
+# Python Stuff
+__pycache__/
+*.py[cod]
+.DS_Store
+*.pyc
+
+# Other Stuff
+*.pdf
