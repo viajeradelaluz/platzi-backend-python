@@ -15,7 +15,7 @@ This is a series of courses from the _Backend with Python_ learning path availab
 
 To see the syllabus of the 2022 version of the courses, go to the [2022 branch](https://github.com/viajeradelaluz/platzi-backend-python/tree/2022-version).
 
-## First Steps with Python
+### First Steps with Python
 
 - [Python Fundamentals Course](https://platzi.com/cursos/python/)
 - [Pyton Course: Comprehensions, Functions & Error Handling](https://platzi.com/cursos/python-funciones/)
@@ -23,14 +23,14 @@ To see the syllabus of the 2022 version of the courses, go to the [2022 branch](
 - [Git and GitHub Professional Course](https://platzi.com/cursos/git-github/)
 - [Pyton Course: PIP and Virtual Environments](https://platzi.com/cursos/python-pip/)
 
-## Python Frameworks
+### Python Frameworks
 
 - [Introduction to FastAPI: Path Operations, Validations & Authentication](https://platzi.com/cursos/fastapi/)
 - [FastAPI: Databases, Modularization and Deployment](https://platzi.com/cursos/fastapi-modularizacion-datos/)
 - [Django Basics Course](https://platzi.com/cursos/django/)
 - [Intermediate Django Course: Testing, Static Files, Django Admin](https://platzi.com/cursos/django-intermedio/)
 
-## Computing with Python
+### Computing with Python
 
 - [Introduction to Computational Thinking with Python](https://platzi.com/cursos/python-cs/)
 - [Object Oriented Programming Course: OOP](https://platzi.com/cursos/oop/)
@@ -38,3 +38,11 @@ To see the syllabus of the 2022 version of the courses, go to the [2022 branch](
 - [Linear Data Structures with Python](https://platzi.com/cursos/estructuras-datos-python/)
 - [Computational Statistics with Python](https://platzi.com/cursos/programacion-estocastica/)
 - [Introduction to Probabilistic Thinking](https://platzi.com/cursos/programacion-estocastica/)
+
+<br>
+
+## Related courses from other platforms
+
+- [Write Maintainable Python Code (OpenClassrooms)](https://openclassrooms.com/en/courses/6900866-write-maintainable-python-code)
+- [Test Your Python Project (OpenClassrooms)](https://openclassrooms.com/en/courses/7747411-test-your-python-project)
+- [Write Agile Documentation: User Stories & Acceptance Tests (OpenClassrooms)](https://openclassrooms.com/en/courses/4544611-write-agile-documentation-user-stories-acceptance-tests)
