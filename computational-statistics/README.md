@@ -16,3 +16,15 @@ Technique to optimize the performance of certain types of problems. It is based 
 - Stores previously computed values to avoid computing them again.
 - Normally, the values are stored in a dictionary, where the queries can be made in constant time O(1).
 - Interchanges time for space.
+
+## Random Walks Simulation
+
+- A random walk is a mathematical object, known as a stochastic or random process, that describes a path that consists of a succession of random steps on some mathematical space such as the integers.
+
+## Stochastic Algorithms
+
+## Monte Carlo Simulation
+
+## Sampling and Confidence Intervals
+
+## Experimental Data
