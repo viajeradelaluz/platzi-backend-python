@@ -1,0 +1,16 @@
+name: hml
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - matplotlib-base
+  - notebook
+  - black
+  - pylint
+  - cudatoolkit
+  - cudnn
+prefix: /home/viajeradelaluz/anaconda3/envs/hml
+
+# conda env create -f conda-linux.yml -n hml

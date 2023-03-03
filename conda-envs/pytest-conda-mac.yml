@@ -1,0 +1,13 @@
+name: pytest
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip>=19.0
+  - pytest
+  - flake8
+  # - pip:
+  #   - sqlmodel
+
+# conda env create -f pytest-conda-mac.yml -n pytest

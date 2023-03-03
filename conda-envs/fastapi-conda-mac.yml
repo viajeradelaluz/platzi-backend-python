@@ -1,0 +1,13 @@
+name: fapi
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip>=19.0
+  - fastapi
+  - uvicorn
+  - pip:
+    - sqlmodel
+
+# conda env create -f conda-mac.yml -n fapi
