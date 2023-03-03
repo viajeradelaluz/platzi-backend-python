@@ -20,6 +20,7 @@ Technique to optimize the performance of certain types of problems. It is based 
 ## Random Walks Simulation
 
 - A random walk is a mathematical object, known as a stochastic or random process, that describes a path that consists of a succession of random steps on some mathematical space such as the integers.
+- See the [Drunken Walk Simulation](./drunken_walk/)
 
 ## Stochastic Algorithms
 

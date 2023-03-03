@@ -43,7 +43,7 @@ class Coordinate:
         return (delta_x**2 + delta_y**2) ** 0.5
 
 
-class Space:
+class Plane2D:
     """ """
 
     def __init__(self) -> None:

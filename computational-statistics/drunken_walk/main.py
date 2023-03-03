@@ -2,17 +2,17 @@
 Main module.
 """
 
-from models import NormalDrunken, Coordinate, Space
+from models import NormalDrunken, Coordinate, Plane2D
 
 
-def go_hike(space: Space, drunken: NormalDrunken, steps: int) -> float:
+def go_hike(plane: Plane2D, drunken: NormalDrunken, steps: int) -> float:
     """ """
-    origin = space.get_coordinate(drunken)
+    origin = plane.get_coordinate(drunken)
 
     for _ in range(steps):
-        space.move_drunken_man(drunken)
+        plane.move_drunken_man(drunken)
 
-    destination = space.get_coordinate(drunken)
+    destination = plane.get_coordinate(drunken)
     return origin.distance(destination)
 
 
@@ -23,9 +23,9 @@ def walk_simulation(steps: int, n_simulations: int, drunken_class) -> None:
     distances = []
 
     for _ in range(n_simulations):
-        space = Space()
-        space.add_drunken_man(drunken, start_position)
-        hike = go_hike(space, drunken, steps)
+        plane = Plane2D()
+        plane.add_drunken_man(drunken, start_position)
+        hike = go_hike(plane, drunken, steps)
         distances.append(round(hike, 1))
 
     return distances
